@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+    <header>
+        <link href="Counter.css" rel="stylesheet"/>
+        <script type="text/javascript" src="Counter.js"></script>
+        <script src="https://kit.fontawesome.com/73ee127a71.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    </header>
+
+    <body>
+        
+        <div class="wrap">
+
+            <div class="topPage">
+                <div class="topInner">
+                    <div class="mainCircle" id="mnCrl">
+                        <div class="num" id="numInside">number</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="midPage">
+                <div class="midInner">
+                    <div><i class="fa-solid fa-minus allBtn minusBtn" onclick="numSub()"></i></div>
+                    <div><i class="fa-solid fa-plus allBtn plusBtn" onclick="numAdd()"></i></div>
+                </div>
+            </div>
+            
+            <div class="bottomPage">
+                <div><i class="fa-solid fa-rotate refreshBtn" onclick="reset()"></i></div>
+            </div>
+        
+        </div>
+    
+    </body>
+
+</html>
